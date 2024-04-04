@@ -5,6 +5,6 @@ letras.splice(2, 1)
 //   letras = ["A", "B", "D", "E", "F", "G", "H"]
 // indices (i)
 
-letras.spice(3, 2) //lettas = ["A", "B", "D", "G", "H")
+letras.splice(3, 2) //lettas = ["A", "B", "D", "G", "H")
 
 console.log(letras)
