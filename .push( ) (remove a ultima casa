@@ -1,0 +1,8 @@
+let meusPeixes = ["palhaço", "mandarim", "esturjão"]
+
+meusPeixes.pop()
+console.log(meusPeixes) //["palhaço", "mandarim"]
+
+
+//ele remove a ultima casa da array
+
