@@ -1,0 +1,3 @@
+let pokemons = ["bulbassaour", "charmander", "pikachiu"]
+
+console.log(pokemons.length)//conta quantas unidades tem no array
