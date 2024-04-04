@@ -1,0 +1,5 @@
+let frase = "hoje comi cenoura, adoro cenoura"
+
+let novafrase = frase.replaceAll("cenoura", "batata")
+
+console.log(novafrase) //faz a troca das palavras
