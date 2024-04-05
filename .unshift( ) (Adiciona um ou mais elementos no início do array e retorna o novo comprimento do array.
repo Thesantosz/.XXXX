@@ -1,0 +1,5 @@
+//unshift(): Adiciona um ou mais elementos no início do array e retorna o novo comprimento do array.
+const numbers12 = [3, 4, 5];
+const newLength2 = numbers12.unshift(1, 2);
+console.log(newLength2); // Saída: 5
+console.log(numbers12); // Saída: [1, 2, 3, 4, 5]
