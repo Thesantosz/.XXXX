@@ -1,0 +1,9 @@
+//forEach(): Executa uma determinada função em cada elemento do array.
+
+const numbers2 = [1, 2, 3, 4, 5];
+
+function logNumber(num) {
+    console.log(num);
+}
+
+numbers2.forEach(logNumber); // Saída: 1, 2, 3, 4, 5 (imprime cada número no console)
