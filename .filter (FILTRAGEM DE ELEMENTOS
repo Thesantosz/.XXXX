@@ -1,0 +1,9 @@
+//filter(): Cria um novo array contendo apenas os elementos que passam por uma determinada condição de filtragem.
+
+const numbers = [1, 2, 3, 4, 5];
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+const evenNumbers = numbers.filter(isEven);
+console.log(evenNumbers); // Saída: [2, 4]
