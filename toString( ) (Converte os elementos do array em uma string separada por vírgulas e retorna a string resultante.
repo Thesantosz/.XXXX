@@ -1,0 +1,4 @@
+//toString(): Converte os elementos do array em uma string separada por vírgulas e retorna a string resultante.
+const numbers11 = [1, 2, 3, 4, 5];
+const stringRepresentation = numbers11.toString();
+console.log(stringRepresentation); // Saída: "1,2,3,4,5"
