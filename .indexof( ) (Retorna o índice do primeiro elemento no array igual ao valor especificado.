@@ -1,0 +1,5 @@
+//indexOf(): Retorna o índice do primeiro elemento no array igual ao valor especificado.
+const numbers13 = [1, 2, 3, 4, 5];
+const index = numbers13.indexOf(3);
+console.log(index); // Saída: 2 (o índice do número 3 no array)
+
