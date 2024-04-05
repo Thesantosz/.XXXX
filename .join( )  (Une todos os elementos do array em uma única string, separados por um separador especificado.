@@ -1,0 +1,6 @@
+//join(): Une todos os elementos do array em uma única string, separados por um separador especificado.
+
+const fruits2 = ['apple', 'banana', 'orange'];
+const fruitsString = fruits2.join(', ');
+
+console.log(fruitsString); // Saída: "apple, banana, orange"
