@@ -1,0 +1,10 @@
+//find(): Retorna o primeiro elemento no array que satisfaz uma determinada condição de busca.
+
+const numbers1 = [1, 2, 3, 4, 5];
+
+function findNumber(num) {
+    return num > 2;
+}
+
+const foundNumber = numbers1.find(findNumber);
+console.log(foundNumber); // Saída: 3
