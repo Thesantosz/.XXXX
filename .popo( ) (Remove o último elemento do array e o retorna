@@ -1,0 +1,7 @@
+//pop(): Remove o último elemento do array e o retorna
+
+const numbers4 = [1, 2, 3, 4, 5];
+const removedNumber = numbers4.pop();
+
+console.log(removedNumber); // Saída: 5
+console.log(numbers4); // Saída: [1, 2, 3, 4]
