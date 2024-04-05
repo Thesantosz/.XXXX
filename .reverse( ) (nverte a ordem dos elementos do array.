@@ -1,0 +1,4 @@
+//reverse(): Inverte a ordem dos elementos do array.
+const numbers7 = [1, 2, 3, 4, 5];
+numbers7.reverse();
+console.log(numbers7); // Saída: [5, 4, 3, 2, 1]
