@@ -1,0 +1,7 @@
+//shift(): Remove o primeiro elemento do array e o retorna.
+
+const numbers8 = [1, 2, 3, 4, 5];
+const removedNumber2 = numbers8.shift();
+
+console.log(removedNumber2); // Saída: 1
+console.log(numbers8); // Saída: [2, 3, 4, 5]
